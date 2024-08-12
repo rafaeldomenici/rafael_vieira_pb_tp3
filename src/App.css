@@ -1,0 +1,217 @@
+body {
+  font-family: Sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+.container {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 140px;
+  margin: 5px;
+  padding: 8px;
+  width: 700px;
+  border-radius: 10px;
+  display: inline-table;
+ 
+  
+}
+
+
+input {
+  
+  align-self: center;
+  
+  width: 200px;
+  
+}
+
+input[type="submit"] {
+  height: 25px;
+  width: 70px;
+  background-color: rgb(3 105 161);
+  border-radius: 15px;
+  
+  color: white;
+}
+
+input[type="button"] {
+  height: 25px;
+  width: 70px;
+  background-color: rgb(3 105 161);
+  border-radius: 15px;
+  color: white;
+  
+  
+}
+
+label {
+  text-align: right;
+  width: 50px;
+}
+
+.containerMenu {
+  background-color: lightgray;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.itemMenu {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  height: 70px;
+  background-color: lightgreen;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Contatos */
+
+.containerContato {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 140px;
+  margin: 5px;
+  padding: 8px;
+  width: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 40% 40%;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.containerGrid div {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 23px;
+  
+}
+
+select {
+  height: 21px;
+  margin-top: 1px;
+}
+
+.botoes {
+  height: 90px;
+  margin-top: 20px;
+}
+
+/* Fornecedores */
+
+.containerFornecedores {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 140px;
+  margin: 5px;
+  padding: 8px;
+  width: 700px;
+  border-radius: 10px;
+  display: inline-table;
+ 
+  
+}
+
+.containerFornecedores label {
+  display: inline-block;
+  width: 200px;
+}
+
+.containerFornecedores input {
+  margin: 10px;
+}
+
+/* Produtos */
+
+.containerProdutos {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 140px;
+  margin: 5px;
+  padding: 8px;
+  width: 700px;
+  border-radius: 10px;
+  display: inline-table;
+  
+}
+
+.containerProdutos label {
+  display: inline-block;
+  width: 200px;
+}
+
+.containerProdutos input {
+  margin: 10px;
+}
+
+.containerProdutos select {
+  width: 208px;
+  margin: 10px;
+  margin-left: 14px;
+}
+
+
+
+
+
+
